@@ -1,0 +1,185 @@
+@import url("https://css.gg/share.css");
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ff4656;
+  --color-dark: #1f2326;
+  --color-light: #fff;
+} 
+
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 17, 0.494);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      108deg,
+      rgba(31, 35, 38, 0.99) 0%,
+      rgba(26, 10, 12, 0.85) 54%,
+      rgba(15, 44, 50, 1) 100%
+    ),
+    url("../images/img-background.png");
+}
+
+/* header */
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.valorant-icon {
+  height: 70px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* main */
+
+.main {
+  margin-top: 80px;
+}
+
+.main-title {
+  font-family: "Druk Wide Bold";
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* cards */
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  margin-left: 20px;
+  width: 170px;
+  height: 170px;
+}
+
+.card-character {
+  background-color: #ff4656;
+  margin: 6px;
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+
+.character-3 {
+  object-position: 40% 50%;
+}
+
+.character-img {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: -40px;
+}
+
+.name-character {
+  font-family: "Druk Wide Bold";
+  color: #ff4656;
+  text-align: center;
+}
+
+/* main photo */
+
+.character-container {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 515px;
+  margin-right: -90px;
+}
+
+.image-character {
+  height: 840px;
+  object-fit: cover;
+  margin-top: -70px;
+}
+
+/* date */
+
+.date {
+  position: absolute;
+  width: 94px;
+  height: 144px;
+  left: 1020px;
+  top: 450px;
+  color: #fff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 92.68%;
+}
+
+.line {
+  position: absolute;
+  width: 146px;
+  height: 0px;
+  left: 1050px;
+  top: 520px;
+  border: 1.5px solid #FF4656;
+  transform: rotate(90deg);
+}
+
+.year {
+  position: absolute;
+  width: 78px;
+  height: 32px;
+  left: 1130px;
+  top: 500px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.05em;
+  color: #FF4656;
+}
+
+/* footer */
+
+.footer {
+  position: absolute;
+  top: 92%;
+  left: 13.17%;
+}
+
+.svg-footer {
+  color: #fff;
+  margin-right: 20px;
+}
