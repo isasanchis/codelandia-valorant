@@ -39,10 +39,11 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 1%;
+  height: 14.4vh;
 }
 
 .valorant-icon {
-  height: 10vh;
+  height: 5.1vh;
 }
 
 .header-title {
@@ -77,6 +78,7 @@ body {
 .cards {
   display: flex;
   justify-content: center;
+  margin-left: 5%;
 }
 
 .card-container {
@@ -85,6 +87,7 @@ body {
   height: 24vh;
   margin-left: 4%;
   width: 13vw;
+  border-top-left-radius: 7%;
 }
 
 .card-character {
@@ -95,6 +98,7 @@ body {
   height: 100%;
   overflow: hidden;
   width: 100%;
+  border-top-left-radius: 7%;
 }
 
 .character-3 {
@@ -125,9 +129,10 @@ body {
 }
 
 .image-character {
-  height: 120vh;
+  height: 140vh;
   object-fit: cover;
   margin-top: -10%;
+  margin-left: 15%;
 }
 
 /* date */
@@ -139,18 +144,18 @@ body {
   font-style: normal;
   font-weight: bold;
   height: 10vh;
-  right: 19%;
+  right: 12%;
   line-height: 92.68%;
   position: absolute;
-  top: 72%;
+  top: 75%;
   width: 10vw;
 }
 
 .line {
   border: 1.5px solid #FF4656;
-  right: 18%;
+  right: 11%;
   position: absolute;
-  top: 81%;
+  top: 84%;
   transform: rotate(90deg);
   width: 10%;
 }
@@ -158,11 +163,11 @@ body {
 .year {
   color: #FF4656;
   font-family: Open Sans;
-  font-size: 6vh;
-  right: 15%;
+  font-size: 4vh;
+  right: 11%;
   letter-spacing: 0.05em;
   position: absolute;
-  top: 77%;
+  top: 81%;
 }
 
 /* footer */
