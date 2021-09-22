@@ -2,72 +2,71 @@
 @import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
-  --color-primary: #ff4656;
   --color-dark: #1f2326;
   --color-light: #fff;
+  --color-primary: #ff4656;
 } 
 
 body {
-  font-family: "Open Sans", sans-serif;
-  width: 100%;
-  height: 100vh;
   background-color: rgba(0, 0, 17, 0.494);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-image: linear-gradient(
-      108deg,
-      rgba(31, 35, 38, 0.99) 0%,
-      rgba(26, 10, 12, 0.85) 54%,
-      rgba(15, 44, 50, 1) 100%
+    108deg,
+    rgba(31, 35, 38, 0.99) 0%,
+    rgba(26, 10, 12, 0.85) 54%,
+    rgba(15, 44, 50, 1) 100%
     ),
     url("../images/img-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  width: 100%;
 }
 
 /* header */
 
 .header-container {
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 20px;
+  padding: 1%;
 }
 
 .valorant-icon {
-  height: 70px;
+  height: 10vh;
 }
 
 .header-title {
   color: #fff;
-  font-size: 18px;
+  font-size: 3vh;
   text-align: center;
-}
-
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 /* main */
 
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
 .main {
-  margin-top: 80px;
+  margin-top: 5%;
 }
 
 .main-title {
-  font-family: "Druk Wide Bold";
   color: #fff;
-  text-transform: uppercase;
+  font-family: "Druk Wide Bold";
+  font-size: 5vh;
   font-weight: bold;
-  font-size: 44px;
+  margin-bottom: 2%;
   text-align: center;
-  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 /* cards */
@@ -80,106 +79,101 @@ body {
 .card-container {
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
-  margin-left: 20px;
-  width: 170px;
-  height: 170px;
+  height: 24vh;
+  margin-left: 4%;
+  width: 13vw;
 }
 
 .card-character {
   background-color: #ff4656;
-  margin: 6px;
-  width: 170px;
-  height: 170px;
-  overflow: hidden;
-  box-sizing: border-box;
   border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 3%;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
 .character-3 {
-  object-position: 40% 50%;
+  object-position: 40% 0%;
 }
 
 .character-img {
-  height: 700px;
-  width: 100%;
+  height: 85vh;
+  margin-top: -20%;
   object-fit: cover;
-  margin-top: -40px;
+  width: 100%;
 }
 
 .name-character {
-  font-family: "Druk Wide Bold";
   color: #ff4656;
+  font-family: "Druk Wide Bold";
+  font-size: 3vh;
   text-align: center;
 }
 
 /* main photo */
 
 .character-container {
-  margin: 0;
-  padding: 0;
   border: none;
   box-sizing: border-box;
   overflow: hidden;
-  height: 515px;
-  margin-right: -90px;
+  height: 85.6vh;
 }
 
 .image-character {
-  height: 840px;
+  height: 120vh;
   object-fit: cover;
-  margin-top: -70px;
+  margin-top: -10%;
 }
 
 /* date */
 
 .date {
-  position: absolute;
-  width: 94px;
-  height: 144px;
-  left: 1020px;
-  top: 450px;
   color: #fff;
   font-family: Open Sans;
+  font-size: 10vh;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
+  height: 10vh;
+  right: 19%;
   line-height: 92.68%;
+  position: absolute;
+  top: 72%;
+  width: 10vw;
 }
 
 .line {
-  position: absolute;
-  width: 146px;
-  height: 0px;
-  left: 1050px;
-  top: 520px;
   border: 1.5px solid #FF4656;
+  right: 18%;
+  position: absolute;
+  top: 81%;
   transform: rotate(90deg);
+  width: 10%;
 }
 
 .year {
-  position: absolute;
-  width: 78px;
-  height: 32px;
-  left: 1130px;
-  top: 500px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 41px;
-  letter-spacing: 0.05em;
   color: #FF4656;
+  font-family: Open Sans;
+  font-size: 6vh;
+  right: 15%;
+  letter-spacing: 0.05em;
+  position: absolute;
+  top: 77%;
 }
 
 /* footer */
 
 .footer {
+  left: 13.17%;
   position: absolute;
   top: 92%;
-  left: 13.17%;
+}
+
+.share-icon, .svg-footer {
+  height: 4vh;
 }
 
 .svg-footer {
   color: #fff;
-  margin-right: 20px;
 }
